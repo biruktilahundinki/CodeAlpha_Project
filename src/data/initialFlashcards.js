@@ -1,0 +1,58 @@
+export const initialFlashcards = [
+  {
+    id: 'fc-1',
+    category: 'React Native',
+    question: 'What is the purpose of "Virtual DOM" vs React Native\'s Native Bridge / Fabric architecture?',
+    answer: 'React Native translates React components directly into real native mobile widgets (UIView on iOS, android.view on Android) rather than browser DOM elements.',
+    mastered: false,
+  },
+  {
+    id: 'fc-2',
+    category: 'React Native',
+    question: 'What is the difference between "State" and "Props" in React?',
+    answer: 'Props are read-only inputs passed from parent to child, while State is mutable data managed internally within a component that triggers re-renders when updated.',
+    mastered: true,
+  },
+  {
+    id: 'fc-3',
+    category: 'JavaScript',
+    question: 'What is the Event Loop in JavaScript?',
+    answer: 'A single-threaded loop that monitors the Call Stack and Task Queue, pushing callback tasks onto the stack whenever the stack is empty to enable non-blocking asynchronous execution.',
+    mastered: false,
+  },
+  {
+    id: 'fc-4',
+    category: 'JavaScript',
+    question: 'What is the difference between "let", "const", and "var"?',
+    answer: 'let and const are block-scoped and temporal dead zone protected; const cannot be reassigned; var is function-scoped and hoisted.',
+    mastered: true,
+  },
+  {
+    id: 'fc-5',
+    category: 'Computer Science',
+    question: 'What is the time complexity of searching an element in a balanced Binary Search Tree?',
+    answer: 'O(log n) on average, because half of the remaining elements are eliminated at each step.',
+    mastered: false,
+  },
+  {
+    id: 'fc-6',
+    category: 'Computer Science',
+    question: 'What is the main difference between SQL and NoSQL databases?',
+    answer: 'SQL databases are relational, table-based with fixed schemas and ACID compliance, while NoSQL databases are document, key-value, or graph-based with dynamic schemas for horizontal scalability.',
+    mastered: false,
+  },
+  {
+    id: 'fc-7',
+    category: 'Science',
+    question: 'What is the powerhouse organelle of a eukaryotic cell?',
+    answer: 'The Mitochondria, responsible for producing ATP through cellular respiration.',
+    mastered: true,
+  },
+  {
+    id: 'fc-8',
+    category: 'Science',
+    question: 'What does Einstein\'s equation E = mc² represent?',
+    answer: 'Energy equals mass times the speed of light squared, establishing that mass and energy are interchangeable equivalents.',
+    mastered: false,
+  },
+];
